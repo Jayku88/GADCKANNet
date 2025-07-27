@@ -39,32 +39,29 @@ All experiments and model training were conducted on a high-performance computin
 
 This project utilizes three benchmark datasets for road extraction from remote sensing imagery:
 
-### 1. MIT Road Dataset
+### 1. Massachusetts Roads Dataset (MIT)
 
-- **Description**: High-resolution aerial images from the Boston area.
 - **Format**:
-  - RGB satellite images (`.tiff`)
+  - RGB images (`.tiff`)
   - Binary road masks (1 = road, 0 = background, `.tif`)
 - **Resolution**: 1500 × 1500 pixels
-- **Source**: [Massachusetts Roads Dataset](https://www.cs.toronto.edu/~vmnih/data/)
+- **Source**: [MIT](https://www.cs.toronto.edu/~vmnih/data/)
 
-  ### 1. MIT Road Dataset
+  ### 2. DeepGlobe Road Extraction Dataset (DG)
 
-- **Description**: High-resolution aerial images from the Boston area.
 - **Format**:
-  - RGB satellite images (`.tiff`)
+  - RGB images (`.tiff`)
   - Binary road masks (1 = road, 0 = background, `.tif`)
-- **Resolution**: 1500 × 1500 pixels
-- **Source**: [Massachusetts Roads Dataset](https://www.cs.toronto.edu/~vmnih/data/)
+- **Resolution**: 1024 × 1024 pixels
+- **Source**: [DG](https://ieeexplore.ieee.org/document/8575485)
 
-  ### 1. MIT Road Dataset
+  ### 1. CHN6-CUG Road Dataset (CC)
 
-- **Description**: High-resolution aerial images from the Boston area.
 - **Format**:
-  - RGB satellite images (`.tiff`)
+  - RGB images (`.tiff`)
   - Binary road masks (1 = road, 0 = background, `.tif`)
-- **Resolution**: 1500 × 1500 pixels
-- **Source**: [Massachusetts Roads Dataset](https://www.cs.toronto.edu/~vmnih/data/)
+- **Resolution**: 512 × 512 pixels
+- **Source**: [CC](https://www.sciencedirect.com/science/article/pii/S0924271621000873)
 
 
 
