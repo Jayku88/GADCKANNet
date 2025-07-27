@@ -72,4 +72,4 @@ This project utilizes three benchmark datasets for road extraction from remote s
 conda env create -f GADCKANNetenvironment.yml
 conda activate tfclone
 
-# 2. Run .ipynb file using environment tfclone
+# 2. Run GADCKANNet-MIT.ipynb file using environment tfclone
