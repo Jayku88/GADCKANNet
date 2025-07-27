@@ -34,6 +34,21 @@ All experiments and model training were conducted on a high-performance computin
   - Memory: 48 GB GDDR6  
   - CUDA Version: 12.5  
   - Driver Version: 555.42.02
+---
+## Dataset Details & Structure
+
+This project utilizes three benchmark datasets for road extraction from remote sensing imagery:
+
+### 1. MIT Road Dataset
+
+- **Description**: High-resolution aerial images from the Boston area.
+- **Format**:
+  - RGB satellite images (`.tiff` or `.jpg`)
+  - Binary road masks (1 = road, 0 = background)
+- **Resolution**: 1500 × 1500 pixels
+- **Source**: [MIT CSAIL Road Dataset](https://www.cs.toronto.edu/~vmnih/data/)
+
+
 
 ## Installation Guide (Using Conda)
 
