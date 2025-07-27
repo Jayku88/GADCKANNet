@@ -36,6 +36,23 @@ conda activate road-extraction
 pip install -e .
 
 ---
+## Architecture Overview
+The proposed GADC-KANNet architecture consists of the following key components:
+
+- **Gradient-Aware Directional Convolution Layer (GADC)**: Captures orientation-sensitive features, Enhances road pixel detection by adapting to varying road directions
+
+- **Dilated Residual Activation Path (DRAP)**: Incorporates dilated convolutions within residual blocks, Expands the receptive field to capture complex spatial and semantic patterns
+
+- **Kolmogorov-Arnold Networks-Based Feature Selection Fusion (KAN-FSF)**: Filters redundant features, Enables effective fusion of high-level and low-level features for accurate road extraction
+
+- **Encoder-Decoder Backbone**: Extracts multi-scale features from remote sensing images, Produces segmentation masks through upsampling and skip connections
+
+- **End-to-End Training Pipeline**: Trains on high-resolution satellite images, Optimized with supervised loss functions for binary segmentation
+
+---
+
+
+## System
 
 ## System Configuration
 
