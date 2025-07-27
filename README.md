@@ -46,7 +46,25 @@ This project utilizes three benchmark datasets for road extraction from remote s
   - RGB satellite images (`.tiff`)
   - Binary road masks (1 = road, 0 = background, `.tif`)
 - **Resolution**: 1500 × 1500 pixels
-- **Source**: [MIT CSAIL Road Dataset](https://www.cs.toronto.edu/~vmnih/data/)
+- **Source**: [Massachusetts Roads Dataset](https://www.cs.toronto.edu/~vmnih/data/)
+
+  ### 1. MIT Road Dataset
+
+- **Description**: High-resolution aerial images from the Boston area.
+- **Format**:
+  - RGB satellite images (`.tiff`)
+  - Binary road masks (1 = road, 0 = background, `.tif`)
+- **Resolution**: 1500 × 1500 pixels
+- **Source**: [Massachusetts Roads Dataset](https://www.cs.toronto.edu/~vmnih/data/)
+
+  ### 1. MIT Road Dataset
+
+- **Description**: High-resolution aerial images from the Boston area.
+- **Format**:
+  - RGB satellite images (`.tiff`)
+  - Binary road masks (1 = road, 0 = background, `.tif`)
+- **Resolution**: 1500 × 1500 pixels
+- **Source**: [Massachusetts Roads Dataset](https://www.cs.toronto.edu/~vmnih/data/)
 
 
 
