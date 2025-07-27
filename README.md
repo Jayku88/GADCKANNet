@@ -35,7 +35,7 @@ All experiments and model training were conducted on a high-performance computin
   - CUDA Version: 12.5  
   - Driver Version: 555.42.02
 ---
-## Dataset Details & Structure
+## Dataset Details
 
 This project utilizes three benchmark datasets for road extraction from remote sensing imagery:
 
