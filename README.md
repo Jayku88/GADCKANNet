@@ -19,23 +19,9 @@ The proposed GADC-KANNet architecture consists of the following key components:
 
 - **End-to-End Training Pipeline**: Trains on high-resolution satellite images, Optimized with supervised loss functions for binary segmentation
 
-> 📌 *Add your architecture diagram below by replacing the placeholder image link.*
-
-![Architecture Overview](https://your-domain.com/architecture-diagram.png)
-
 ---
 
-## ✨ Key Features
-
-- ✅ **Directional Awareness** via GADC: Captures orientation-sensitive road structures.
-- ✅ **Nonlinear Feature Fusion**: KAN fusion generalizes better with fewer parameters.
-- ✅ **Plug-and-Play Design**: Compatible with most encoder-decoder segmentation backbones.
-- ✅ **End-to-End Training**: No need for post-processing like CRFs.
-- ✅ **Scalable**: Easily adaptable to different satellite imagery datasets.
-
----
-
-## ⚙ Installation Guide (Using Conda)
+## Installation Guide (Using Conda)
 
 ```bash
 # 1. Clone the repository
