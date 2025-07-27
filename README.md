@@ -63,8 +63,7 @@ This project utilizes three benchmark datasets for road extraction from remote s
 - **Resolution**: 512 × 512 pixels
 - **Source**: [CC](https://www.sciencedirect.com/science/article/pii/S0924271621000873)
 
-
-
+---
 ## Installation Guide (Using Conda)
 
 ```bash
