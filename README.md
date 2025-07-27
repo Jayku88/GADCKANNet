@@ -50,16 +50,16 @@ This project utilizes three benchmark datasets for road extraction from remote s
   ### 2. DeepGlobe Road Extraction Dataset (DG)
 
 - **Format**:
-  - RGB images (`.tiff`)
-  - Binary road masks (1 = road, 0 = background, `.tif`)
+  - RGB images (`.jpg`)
+  - Binary road masks (1 = road, 0 = background, `.png`)
 - **Resolution**: 1024 × 1024 pixels
 - **Source**: [DG](https://ieeexplore.ieee.org/document/8575485)
 
-  ### 1. CHN6-CUG Road Dataset (CC)
+  ### 3. CHN6-CUG Road Dataset (CC)
 
 - **Format**:
-  - RGB images (`.tiff`)
-  - Binary road masks (1 = road, 0 = background, `.tif`)
+  - RGB images (`.jpg`)
+  - Binary road masks (1 = road, 0 = background, `.png`)
 - **Resolution**: 512 × 512 pixels
 - **Source**: [CC](https://www.sciencedirect.com/science/article/pii/S0924271621000873)
 
