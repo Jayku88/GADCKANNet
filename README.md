@@ -47,7 +47,7 @@ This project utilizes three benchmark datasets for road extraction from remote s
 - **Resolution**: 1500 × 1500 pixels
 - **Source**: [MIT](https://www.cs.toronto.edu/~vmnih/data/)
 
-  ### 2. DeepGlobe Road Extraction Dataset (DG)
+### 2. DeepGlobe Road Extraction Dataset (DG)
 
 - **Format**:
   - RGB images (`.jpg`)
@@ -55,7 +55,7 @@ This project utilizes three benchmark datasets for road extraction from remote s
 - **Resolution**: 1024 × 1024 pixels
 - **Source**: [DG](https://ieeexplore.ieee.org/document/8575485)
 
-  ### 3. CHN6-CUG Road Dataset (CC)
+### 3. CHN6-CUG Road Dataset (CC)
 
 - **Format**:
   - RGB images (`.jpg`)
