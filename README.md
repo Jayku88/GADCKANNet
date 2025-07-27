@@ -9,42 +9,15 @@ Automatic road extraction from high-resolution remote sensing images is essentia
 ## Architecture Overview
 The proposed GADC-KANNet architecture consists of the following key components:
 
-- **Gradient-Aware Directional Convolution Layer (GADC)** 
+- **Gradient-Aware Directional Convolution Layer (GADC)**: Captures orientation-sensitive features, Enhances road pixel detection by adapting to varying road directions
 
--- Captures orientation-sensitive features
+- **Dilated Residual Activation Path (DRAP)**: Incorporates dilated convolutions within residual blocks, Expands the receptive field to capture complex spatial and semantic patterns
 
--- Enhances road pixel detection by adapting to varying road directions
+- **Kolmogorov-Arnold Networks-Based Feature Selection Fusion (KAN-FSF)**: Filters redundant features, Enables effective fusion of high-level and low-level features for accurate road extraction
 
-- **Dilated Residual Activation Path (DRAP)**
+- **Encoder-Decoder Backbone**: Extracts multi-scale features from remote sensing images, Produces segmentation masks through upsampling and skip connections
 
-Incorporates dilated convolutions within residual blocks
-
-Expands the receptive field to capture complex spatial and semantic patterns
-
-- **Kolmogorov-Arnold Networks-Based Feature Selection Fusion (KAN-FSF)**
-
-Filters redundant features
-
-Enables effective fusion of high-level and low-level features for accurate road extraction
-
-- **Encoder-Decoder Backbone**
-
-Extracts multi-scale features from remote sensing images
-
-Produces segmentation masks through upsampling and skip connections
-
-- **End-to-End Training Pipeline**
-
-Trains on high-resolution satellite images
-
-Optimized with supervised loss functions for binary segmentation
-
-The architecture comprises the following core components:
-
-- **Backbone Encoder**: A lightweight or ResNet-based encoder to extract hierarchical feature maps.
-- **Gradient-Aware Directional Convolution (GADC)**: A custom convolutional module that incorporates directional gradient cues to strengthen feature maps near road boundaries.
-- **KAN-Enhanced Feature Fusion**: Inspired by the Kolmogorov–Arnold theorem, this module fuses multi-scale features using learnable nonlinear mappings, outperforming traditional additive or concatenation-based fusion.
-- **Decoder**: Upsampling layers with skip connections for pixel-wise prediction of road masks.
+- **End-to-End Training Pipeline**: Trains on high-resolution satellite images, Optimized with supervised loss functions for binary segmentation
 
 > 📌 *Add your architecture diagram below by replacing the placeholder image link.*
 
