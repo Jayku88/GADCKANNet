@@ -38,13 +38,9 @@ All experiments and model training were conducted on a high-performance computin
 ## Installation Guide (Using Conda)
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/Gradient-Aware-Road-Extraction.git
-cd Gradient-Aware-Road-Extraction
 
-# 2. Create the Conda environment
+# 1. Create the Conda environment
 conda env create -f environment.yml
 conda activate road-extraction
 
-# 3. (Optional) Install in editable mode
-pip install -e .
+# 2. Run .ipynb file
