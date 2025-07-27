@@ -35,3 +35,17 @@ conda activate road-extraction
 # 3. (Optional) Install in editable mode
 pip install -e .
 
+## System Configuration
+
+All experiments and model training were conducted on a high-performance computing setup with the following specifications:
+
+- **Operating System**: Ubuntu 20.04.6 LTS (Focal)
+- **CPU**: AMD Ryzen 9 7950X (16 Cores, 32 Threads)
+  - Base Clock: 3.0 GHz  
+  - Boost Clock: Up to 5.88 GHz  
+  - L3 Cache: 64 MB
+- **RAM**: 128 GB DDR4
+- **GPU**: NVIDIA RTX A6000
+  - Memory: 48 GB GDDR6  
+  - CUDA Version: 12.5  
+  - Driver Version: 555.42.02
