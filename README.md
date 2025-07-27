@@ -20,40 +20,6 @@ The proposed GADC-KANNet architecture consists of the following key components:
 - **End-to-End Training Pipeline**: Trains on high-resolution satellite images, Optimized with supervised loss functions for binary segmentation
 
 ---
-
-## Installation Guide (Using Conda)
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/Gradient-Aware-Road-Extraction.git
-cd Gradient-Aware-Road-Extraction
-
-# 2. Create the Conda environment
-conda env create -f environment.yml
-conda activate road-extraction
-
-# 3. (Optional) Install in editable mode
-pip install -e .
-
----
-## Architecture Overview
-The proposed GADC-KANNet architecture consists of the following key components:
-
-- **Gradient-Aware Directional Convolution Layer (GADC)**: Captures orientation-sensitive features, Enhances road pixel detection by adapting to varying road directions
-
-- **Dilated Residual Activation Path (DRAP)**: Incorporates dilated convolutions within residual blocks, Expands the receptive field to capture complex spatial and semantic patterns
-
-- **Kolmogorov-Arnold Networks-Based Feature Selection Fusion (KAN-FSF)**: Filters redundant features, Enables effective fusion of high-level and low-level features for accurate road extraction
-
-- **Encoder-Decoder Backbone**: Extracts multi-scale features from remote sensing images, Produces segmentation masks through upsampling and skip connections
-
-- **End-to-End Training Pipeline**: Trains on high-resolution satellite images, Optimized with supervised loss functions for binary segmentation
-
----
-
-
-## System
-
 ## System Configuration
 
 All experiments and model training were conducted on a high-performance computing setup with the following specifications:
@@ -68,3 +34,17 @@ All experiments and model training were conducted on a high-performance computin
   - Memory: 48 GB GDDR6  
   - CUDA Version: 12.5  
   - Driver Version: 555.42.02
+
+## Installation Guide (Using Conda)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/Gradient-Aware-Road-Extraction.git
+cd Gradient-Aware-Road-Extraction
+
+# 2. Create the Conda environment
+conda env create -f environment.yml
+conda activate road-extraction
+
+# 3. (Optional) Install in editable mode
+pip install -e .
