@@ -35,6 +35,8 @@ conda activate road-extraction
 # 3. (Optional) Install in editable mode
 pip install -e .
 
+---
+
 ## System Configuration
 
 All experiments and model training were conducted on a high-performance computing setup with the following specifications:
