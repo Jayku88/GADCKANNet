@@ -40,7 +40,7 @@ All experiments and model training were conducted on a high-performance computin
 ```bash
 
 # 1. Create the Conda environment
-conda env create -f environment.yml
+conda env create -f GADCKANNetenvironment.yml
 conda activate road-extraction
 
 # 2. Run .ipynb file
